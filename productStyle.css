@@ -1,0 +1,147 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.header-logo img {
+    height: 50px;
+    width: 50px;
+}
+
+.header-logo a {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-links li {
+    margin-right: 20px;
+}
+
+.header-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-links a:hover {
+    color: #ff0000;
+}
+
+main {
+    padding: 20px;
+}
+
+section#products {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    flex-basis: calc(33.33% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.product-card a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.product-card a:hover {
+    background-color: #666;
+}
+
+.footer {
+    background-color: #333;
+    padding: 50px;
+}
+
+.footer-social-icons {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-social-icons a:hover {
+    background-color: #ff0000;
+}
+
+.footer-info {
+    text-align: center;
+    margin-top: 10px;
+    color: #9a9a9a;
+}
+
+.footer-info p {
+    margin: 0;
+}
